@@ -12,7 +12,6 @@
 		63DE37A01D6DD3EF000AB4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE379E1D6DD3EF000AB4B6 /* Main.storyboard */; };
 		63DE37A21D6DD3EF000AB4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DE37A11D6DD3EF000AB4B6 /* Assets.xcassets */; };
 		63DE37A51D6DD3EF000AB4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE37A31D6DD3EF000AB4B6 /* LaunchScreen.storyboard */; };
-		AD6F1CC820EBC6FB00198C34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6F1CC720EBC6FB00198C34 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		63DE37A11D6DD3EF000AB4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63DE37A41D6DD3EF000AB4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63DE37A61D6DD3EF000AB4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD6F1CC720EBC6FB00198C34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +38,6 @@
 		63DE378E1D6DD3EF000AB4B6 = {
 			isa = PBXGroup;
 			children = (
-				AD6F1CC720EBC6FB00198C34 /* README.md */,
 				63DE37991D6DD3EF000AB4B6 /* I Am Poor */,
 				63DE37981D6DD3EF000AB4B6 /* Products */,
 			);
@@ -98,6 +95,7 @@
 				TargetAttributes = {
 					63DE37961D6DD3EF000AB4B6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F3WQ5L3TC6;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -128,7 +126,6 @@
 			files = (
 				63DE37A51D6DD3EF000AB4B6 /* LaunchScreen.storyboard in Resources */,
 				63DE37A21D6DD3EF000AB4B6 /* Assets.xcassets in Resources */,
-				AD6F1CC820EBC6FB00198C34 /* README.md in Resources */,
 				63DE37A01D6DD3EF000AB4B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +277,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F3WQ5L3TC6;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bebnevanton.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
@@ -293,9 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F3WQ5L3TC6;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bebnevanton.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
